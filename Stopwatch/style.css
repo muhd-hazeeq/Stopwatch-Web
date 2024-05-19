@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+  color: whitesmoke;
+}
+
+#time {
+  font-size: 3rem;
+  font-family: "Courier New", Courier, monospace;
+  display: flex;
+  justify-content: center;
+  margin-top: 30vh;
+}
+
+#lap-time {
+  font-size: 1.4rem;
+  font-family: "Courier New", Courier, monospace;
+  display: flex;
+  justify-content: center;
+  margin-top: 1.2vh;
+  color: #686565;
+  display: none;
+}
+
+table {
+  display: flex;
+  justify-content: center;
+  margin: 47.5px;
+  height: 350px;
+  overflow: auto;
+  border-collapse: collapse;
+  display: none;
+}
+
+th {
+  color: rgb(167, 167, 167);
+  padding: 0.8em 1.6em;
+  border-bottom: 1px solid rgb(90, 90, 90);
+}
+
+td {
+  text-align: center;
+  padding: 0.8em;
+}
+
+.btn {
+  margin-top: 53.6vh;
+  display: flex;
+  justify-content: center;
+  gap: 15%;
+}
+
+button {
+  padding: 0.8em 2.4em;
+  border-radius: 4em;
+  font-weight: bold;
+  border: none;
+}
+
+#lap {
+  color: #ffffffa2;
+  background-color: #0d0d0d;
+}
+
+#start {
+  background-color: #9900ff;
+  color: white;
+}
+
+#start:hover {
+  cursor: pointer;
+  background-color: hsl(276, 100%, 60%);
+}
